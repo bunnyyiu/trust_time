@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+JSDOC=jsdoc
+PATH_TO_INCLUDE=.
+DESTINATION=jsdoc
+$JSDOC $PATH_TO_INCLUDE -d $DESTINATION
